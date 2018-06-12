@@ -1,0 +1,20 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workbench ActiveDocument="RaysHotDogs.Core/Service/HotDogDetailServices.cs">
+    <Files>
+      <File FileName="RaysHotDogs.Core/MyClass.cs" Line="1" Column="1" />
+      <File FileName="RaysHotDogs.Core/Model/HotDog.cs" Line="23" Column="46" />
+      <File FileName="RaysHotDogs.Core/Model/HotDogGroup.cs" Line="16" Column="9" />
+      <File FileName="RaysHotDogs.Core/Repository/HotDogRepository.cs" Line="40" Column="28" />
+      <File FileName="RaysHotDogs.Core/Service/HotDogDetailServices.cs" Line="7" Column="9" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="../../../../../Projects/Stadium/src/Droid/Views/Feedback/FeedbackWindow.cs" line="48" offsetX="537" offsetY="846" expression="parent" liveUpdate="False" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
+  <MonoDevelop.Ide.ItemProperties.RaysHotDogs.Core FirstBuild="True" />
+  <MultiItemStartupConfigurations />
+</Properties>
