@@ -1,0 +1,8 @@
+/Users/bss/Documents/IN Proj/RaysHotDogs/RAysHotDogs/bin/iPhoneSimulator/Debug/RAysHotDogs.exe
+/Library/Frameworks/Xamarin.iOS.framework/Versions/11.10.1.178/lib/mono/Xamarin.iOS/mscorlib.dll
+/Library/Frameworks/Xamarin.iOS.framework/Versions/11.10.1.178/lib/mono/Xamarin.iOS/../../64bits/Xamarin.iOS.dll
+/Library/Frameworks/Xamarin.iOS.framework/Versions/11.10.1.178/lib/mono/Xamarin.iOS/System.dll
+/Library/Frameworks/Xamarin.iOS.framework/Versions/11.10.1.178/lib/mono/Xamarin.iOS/Mono.Security.dll
+/Library/Frameworks/Xamarin.iOS.framework/Versions/11.10.1.178/lib/mono/Xamarin.iOS/System.Xml.dll
+/Library/Frameworks/Xamarin.iOS.framework/Versions/11.10.1.178/lib/mono/Xamarin.iOS/System.Core.dll
+/Users/bss/Documents/IN Proj/RaysHotDogs/RaysHotDogs.Core/bin/Debug/RaysHotDogs.Core.dll

@@ -38,13 +38,10 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Model\">
-      <DependentUpon>Model</DependentUpon>
     </Folder>
     <Folder Include="Repository\">
-      <DependentUpon>Repository</DependentUpon>
     </Folder>
     <Folder Include="Service\">
-      <DependentUpon>Service</DependentUpon>
     </Folder>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />

@@ -1,0 +1,13 @@
+/Users/bss/Documents/IN Proj/RaysHotDogs/RAysHotDogs/bin/iPhoneSimulator/Debug/RAysHotDogs.exe
+/Users/bss/Documents/IN Proj/RaysHotDogs/RAysHotDogs/bin/iPhoneSimulator/Debug/RAysHotDogs.pdb
+/Users/bss/Documents/IN Proj/RaysHotDogs/RAysHotDogs/bin/iPhoneSimulator/Debug/RaysHotDogs.Core.dll
+/Users/bss/Documents/IN Proj/RaysHotDogs/RAysHotDogs/bin/iPhoneSimulator/Debug/RaysHotDogs.Core.pdb
+/Users/bss/Documents/IN Proj/RaysHotDogs/RAysHotDogs/obj/iPhoneSimulator/Debug/ibtool/_BundleResourceWithLogicalName.items
+/Users/bss/Documents/IN Proj/RaysHotDogs/RAysHotDogs/obj/iPhoneSimulator/Debug/actool/_PartialAppManifest.items
+/Users/bss/Documents/IN Proj/RaysHotDogs/RAysHotDogs/obj/iPhoneSimulator/Debug/actool/_BundleResourceWithLogicalName.items
+/Users/bss/Documents/IN Proj/RaysHotDogs/RAysHotDogs/obj/iPhoneSimulator/Debug/coremlc/_PartialAppManifest.items
+/Users/bss/Documents/IN Proj/RaysHotDogs/RAysHotDogs/obj/iPhoneSimulator/Debug/coremlc/_BundleResourceWithLogicalName.items
+/Users/bss/Documents/IN Proj/RaysHotDogs/RAysHotDogs/obj/iPhoneSimulator/Debug/optimized/
+/Users/bss/Documents/IN Proj/RaysHotDogs/RAysHotDogs/obj/iPhoneSimulator/Debug/RAysHotDogs.csproj.CoreCompileInputs.cache
+/Users/bss/Documents/IN Proj/RaysHotDogs/RAysHotDogs/obj/iPhoneSimulator/Debug/RAysHotDogs.exe
+/Users/bss/Documents/IN Proj/RaysHotDogs/RAysHotDogs/obj/iPhoneSimulator/Debug/RAysHotDogs.pdb
