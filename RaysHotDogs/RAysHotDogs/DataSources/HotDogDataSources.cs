@@ -4,6 +4,7 @@ using Foundation;
 using RaysHotDogs.Core.Model;
 using RAysHotDogs.Cells;
 using UIKit;
+using RaysHotDogs.Core.Service;
 
 namespace RAysHotDogs.DataSources
 {
@@ -38,6 +39,11 @@ namespace RAysHotDogs.DataSources
         public override nint RowsInSection(UITableView tableview, nint section)
         {
             return hotDogs.Count;
+        }
+        public HotDog GetItem(int id)
+        {
+            HotDogDetailServices srv = new HotDogDetailServices();
+            return srv.GetHotDogById(id);
         }
     }
 }
