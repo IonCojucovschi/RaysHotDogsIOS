@@ -4,3 +4,9 @@
 /Users/bss/Documents/IN Proj/RaysHotDogs/RaysHotDogs.Core/obj/Debug/RaysHotDogs.Core.dll
 /Users/bss/Documents/IN Proj/RaysHotDogs/RaysHotDogs.Core/obj/Debug/RaysHotDogs.Core.pdb
 /Users/bss/Documents/IN Proj/RaysHotDogs/RaysHotDogs.Core/obj/Debug/RaysHotDogs.Core.csprojResolveAssemblyReference.cache
+/Users/bss/Documents/IN Proj/RayHotDogsIOS/RaysHotDogs/RaysHotDogs.Core/bin/Debug/RaysHotDogs.Core.dll
+/Users/bss/Documents/IN Proj/RayHotDogsIOS/RaysHotDogs/RaysHotDogs.Core/bin/Debug/RaysHotDogs.Core.pdb
+/Users/bss/Documents/IN Proj/RayHotDogsIOS/RaysHotDogs/RaysHotDogs.Core/obj/Debug/RaysHotDogs.Core.csprojResolveAssemblyReference.cache
+/Users/bss/Documents/IN Proj/RayHotDogsIOS/RaysHotDogs/RaysHotDogs.Core/obj/Debug/RaysHotDogs.Core.csproj.CoreCompileInputs.cache
+/Users/bss/Documents/IN Proj/RayHotDogsIOS/RaysHotDogs/RaysHotDogs.Core/obj/Debug/RaysHotDogs.Core.dll
+/Users/bss/Documents/IN Proj/RayHotDogsIOS/RaysHotDogs/RaysHotDogs.Core/obj/Debug/RaysHotDogs.Core.pdb

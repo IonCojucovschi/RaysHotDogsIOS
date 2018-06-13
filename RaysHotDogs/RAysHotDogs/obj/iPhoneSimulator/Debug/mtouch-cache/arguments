@@ -1,7 +1,7 @@
 # Version: 11.10.1.178 (d15-7: 408d3574)
-# [first argument, ignore] # --cache=/Users/bss/Documents/IN Proj/RaysHotDogs/RAysHotDogs/obj/iPhoneSimulator/Debug/mtouch-cache
+# [first argument, ignore] # --cache=/Users/bss/Documents/IN Proj/RayHotDogsIOS/RaysHotDogs/RAysHotDogs/obj/iPhoneSimulator/Debug/mtouch-cache
 /Library/Frameworks/Xamarin.iOS.framework/Versions/11.10.1.178/lib/mtouch/mtouch.exe \
-	'--sim=/Users/bss/Documents/IN Proj/RaysHotDogs/RAysHotDogs/bin/iPhoneSimulator/Debug/RAysHotDogs.app' \
+	'--sim=/Users/bss/Documents/IN Proj/RayHotDogsIOS/RaysHotDogs/RAysHotDogs/bin/iPhoneSimulator/Debug/RAysHotDogs.app' \
 	--executable=RAysHotDogs \
 	--debug \
 	--nolink \
@@ -11,14 +11,14 @@
 	--aot-options=-O=-float32 \
 	--http-message-handler=HttpClientHandler \
 	--abi=x86_64 \
-	'--symbollist=/Users/bss/Documents/IN Proj/RaysHotDogs/RAysHotDogs/obj/iPhoneSimulator/Debug/mtouch-symbols.list' \
+	'--symbollist=/Users/bss/Documents/IN Proj/RayHotDogsIOS/RaysHotDogs/RAysHotDogs/obj/iPhoneSimulator/Debug/mtouch-symbols.list' \
 	--dsym=no \
 	-r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll \
-	'-r=/Users/bss/Documents/IN Proj/RaysHotDogs/RaysHotDogs.Core/bin/Debug/RaysHotDogs.Core.dll' \
+	'-r=/Users/bss/Documents/IN Proj/RayHotDogsIOS/RaysHotDogs/RaysHotDogs.Core/bin/Debug/RaysHotDogs.Core.dll' \
 	-r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Core.dll \
 	-r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.dll \
 	-r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Xml.dll \
 	-r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Xamarin.iOS.dll \
-	'-r=/Users/bss/Documents/IN Proj/RaysHotDogs/RaysHotDogs.Core/bin/Debug/RaysHotDogs.Core.dll' \
+	'-r=/Users/bss/Documents/IN Proj/RayHotDogsIOS/RaysHotDogs/RaysHotDogs.Core/bin/Debug/RaysHotDogs.Core.dll' \
 	'--target-framework=Xamarin.iOS,v1.0' \
-	'--root-assembly=/Users/bss/Documents/IN Proj/RaysHotDogs/RAysHotDogs/bin/iPhoneSimulator/Debug/RAysHotDogs.exe' \
+	'--root-assembly=/Users/bss/Documents/IN Proj/RayHotDogsIOS/RaysHotDogs/RAysHotDogs/bin/iPhoneSimulator/Debug/RAysHotDogs.exe' \

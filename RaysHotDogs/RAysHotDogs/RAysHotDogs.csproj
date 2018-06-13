@@ -101,7 +101,9 @@
     <Folder Include="images\">
     </Folder>
     <Folder Include="DataSources\">
-      <DependentUpon>DataSources</DependentUpon>
+    </Folder>
+    <Folder Include="Cells\">
+      <DependentUpon>Cells</DependentUpon>
     </Folder>
   </ItemGroup>
   <ItemGroup>
@@ -123,6 +125,7 @@
     <Compile Include="HotDogTableViewController.designer.cs">
       <DependentUpon>HotDogTableViewController.cs</DependentUpon>
     </Compile>
+    <Compile Include="Cells\HotDogListCell.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\RaysHotDogs.Core\RaysHotDogs.Core.csproj">
