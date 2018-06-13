@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using Foundation;
 using RaysHotDogs.Core.Model;
+using RAysHotDogs.Cells;
 using UIKit;
 
 namespace RAysHotDogs.DataSources
@@ -22,16 +23,16 @@ namespace RAysHotDogs.DataSources
 
         public override UITableViewCell GetCell(UITableView tableView, NSIndexPath indexPath)
         {
-            UITableViewCell cell = tableView.DequeueReusableCell(cellIdentifier) as UITableViewCell;
-            if(cell==null)
-            {
-                cell = new UITableViewCell(UITableViewCellStyle.Default,cellIdentifier);
-            }
-            var hotDog = hotDogs[indexPath.Row];
-            cell.TextLabel.Text = hotDog.Name;
-            cell.ImageView.Image = UIImage.FromFile("Images/" + hotDog.ImagePath + ".jpg");
-            return cell;
+            HotDogListCell cell = tableView.DequeueReusableCell(cellIdentifier) as HotDogListCell;
 
+            if (cell == null)
+                cell = new HotDogListCell(cellIdentifier);
+            
+            cell.UpdateCell(hotDogs[indexPath.Row].Name
+                            , hotDogs[indexPath.Row].Price.ToString()
+                            , UIImage.FromFile("Images/"+hotDogs[indexPath.Row].ImagePath+".jpg"));
+
+            return cell;
         }
 
         public override nint RowsInSection(UITableView tableview, nint section)
