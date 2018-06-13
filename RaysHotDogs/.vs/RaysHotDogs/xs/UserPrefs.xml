@@ -1,10 +1,11 @@
 ﻿<Properties StartupConfiguration="{586D7423-0A13-4A8B-A5CF-0CB603CADD79}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="RAysHotDogs/Cells/HotDogListCell.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="RAysHotDogs/HotDogTableViewController.cs">
     <Files>
       <File FileName="RAysHotDogs/Cells/HotDogListCell.cs" Line="63" Column="1" />
-      <File FileName="RAysHotDogs/DataSources/HotDogDataSources.cs" Line="1" Column="1" />
+      <File FileName="RAysHotDogs/DataSources/HotDogDataSources.cs" Line="44" Column="20" />
       <File FileName="RAysHotDogs/HotDogDetailViewController.cs" Line="1" Column="1" />
-      <File FileName="RAysHotDogs/HotDogTableViewController.cs" Line="33" Column="1" />
+      <File FileName="RAysHotDogs/HotDogTableViewController.cs" Line="44" Column="40" />
+      <File FileName="RaysHotDogs.Core/Service/HotDogDetailServices.cs" Line="8" Column="38" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.RAysHotDogs PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.39DE4518-562E-4D70-9B30-F04711EF8001" />

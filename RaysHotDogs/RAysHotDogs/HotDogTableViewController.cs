@@ -26,9 +26,27 @@ namespace RAysHotDogs
             var hotDogs = dataService.GetAllHotDogs();
             var datasource = new HotDogDataSources(hotDogs, this);
             TableView.Source = datasource;
+
+            this.NavigationItem.Title = "RAy's Hot Dog menu";
         }
 
+        public override void PrepareForSegue(UIStoryboardSegue segue, NSObject sender)
+        {
+            base.PrepareForSegue(segue, sender);
 
+            if(segue.Identifier=="HotDogDetailSegue")
+            {
+                var hotDogDetailViewController = segue.DestinationViewController as HotDogDetailViewController;
+                if(hotDogDetailViewController!=null)
+                {
+                    var source = TableView.Source as HotDogDataSources;
+                    var rowPath = TableView.IndexPathForSelectedRow;
+                    var item = source.GetItem(rowPath.Row);
+                    hotDogDetailViewController.SelectedHotDog = item;
+                }
+            }
+
+        }
 
 
 
