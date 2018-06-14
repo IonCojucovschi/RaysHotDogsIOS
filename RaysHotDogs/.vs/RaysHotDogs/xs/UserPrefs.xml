@@ -1,21 +1,20 @@
 ﻿<Properties StartupConfiguration="{586D7423-0A13-4A8B-A5CF-0CB603CADD79}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="RAysHotDogs/HotDogTableViewController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="RAysHotDogs/VegetableLoversTableViewController.cs">
     <Files>
-      <File FileName="RAysHotDogs/Cells/HotDogListCell.cs" Line="63" Column="1" />
-      <File FileName="RAysHotDogs/DataSources/HotDogDataSources.cs" Line="45" Column="47" />
-      <File FileName="RAysHotDogs/HotDogDetailViewController.cs" Line="1" Column="1" />
-      <File FileName="RAysHotDogs/HotDogTableViewController.cs" Line="37" Column="52" />
-      <File FileName="RaysHotDogs.Core/Service/HotDogDetailServices.cs" Line="8" Column="38" />
+      <File FileName="RAysHotDogs/HotDogTableViewController.cs" Line="25" Column="43" />
+      <File FileName="RAysHotDogs/DataSources/HotDogDataSources.cs" Line="56" Column="10" />
+      <File FileName="RAysHotDogs/Main.cs" Line="16" Column="1" />
+      <File FileName="RAysHotDogs/FavoriteTableViewController.cs" Line="22" Column="32" />
+      <File FileName="RAysHotDogs/MeatLoversTableViewController.cs" Line="25" Column="68" />
+      <File FileName="RAysHotDogs/VegetableLoversTableViewController.cs" Line="26" Column="68" />
+      <File FileName="RAysHotDogs/BaseTableCategory.cs" Line="13" Column="10" />
+      <File FileName="RaysHotDogs.Core/Repository/HotDogRepository.cs" Line="168" Column="15" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.RAysHotDogs PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.39DE4518-562E-4D70-9B30-F04711EF8001" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/bss/Documents/IN Proj/RayHotDogsIOS/RaysHotDogs/RAysHotDogs/HotDogTableViewController.cs" relfile="RAysHotDogs/HotDogTableViewController.cs" line="40" column="1" />
-      <Breakpoint file="/Users/bss/Documents/IN Proj/RayHotDogsIOS/RaysHotDogs/RAysHotDogs/HotDogTableViewController.cs" relfile="RAysHotDogs/HotDogTableViewController.cs" line="39" column="1" />
-      <Breakpoint file="/Users/bss/Documents/IN Proj/RayHotDogsIOS/RaysHotDogs/RAysHotDogs/HotDogTableViewController.cs" relfile="RAysHotDogs/HotDogTableViewController.cs" line="37" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches>
     <Watch file="../../../../../Projects/Stadium/src/Droid/Views/Feedback/FeedbackWindow.cs" line="48" offsetX="537" offsetY="846" expression="parent" liveUpdate="False" />

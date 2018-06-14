@@ -10,43 +10,42 @@ using UIKit;
 
 namespace RAysHotDogs
 {
-    public partial class HotDogTableViewController : BaseTableCategory
+    public partial class VegetableLoversTableViewController : BaseTableCategory
 	{
-
-        HotDogDetailServices dataService = new HotDogDetailServices();
-
-
-		public HotDogTableViewController (IntPtr handle) : base (handle)
+		public VegetableLoversTableViewController (IntPtr handle) : base (handle)
 		{
-            
 		}
 
 
-        public override void ViewDidLoad()
+        HotDogDetailServices dataService = new HotDogDetailServices();
+
+        public async override void ViewDidLoad()
         {
             base.ViewDidLoad();
-            var hotDogs = dataService.GetAllHotDogs();
-            var datasource = new HotDogDataSources<HotDogTableViewController>(hotDogs, this);
+
+            var favoritesHotDog = dataService.GetHotDogsFromGroup(3);
+            var datasource = new HotDogDataSources<VegetableLoversTableViewController>(favoritesHotDog, this);
             TableView.Source = datasource;
 
-            this.NavigationItem.Title = "RAy's Hot Dog menu";
+            this.NavigationItem.Title = "RAy's Vegetable Lovers";
+
+
         }
+
+
 
 
         public override async void HotDogSelected(HotDog selectedHotDog)
         {
             HotDogDetailViewController hotDogDetailViewController = this.Storyboard.InstantiateViewController("hotDogDetailViewController") as HotDogDetailViewController;
 
-            if(hotDogDetailViewController!=null)
+            if (hotDogDetailViewController != null)
             {
                 hotDogDetailViewController.ModalTransitionStyle = UIModalTransitionStyle.PartialCurl;
                 hotDogDetailViewController.SelectedHotDog = selectedHotDog;
-                await PresentViewControllerAsync(hotDogDetailViewController,true);
+                await PresentViewControllerAsync(hotDogDetailViewController, true);
             }
-         }
-
-
-
+        }
 
     }
 }

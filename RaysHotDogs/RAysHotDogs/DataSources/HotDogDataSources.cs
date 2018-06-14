@@ -8,19 +8,19 @@ using RaysHotDogs.Core.Service;
 
 namespace RAysHotDogs.DataSources
 {
-    public class HotDogDataSources:UITableViewSource
+    
+    public class HotDogDataSources<T>:UITableViewSource where T : BaseTableCategory
     {
-
-
+        
         private List<HotDog> hotDogs;
         NSString cellIdentifier = new NSString("HotDogCell");
+        T callingController;
 
-        public HotDogDataSources(List<HotDog> hotDogs,UITableViewController callingCOntroller)
+        public HotDogDataSources(List<HotDog> hotDogs,T callingCOntroller)
         {
+            this.callingController = callingCOntroller;
             this.hotDogs = hotDogs;
         }
-
-
 
         public override UITableViewCell GetCell(UITableView tableView, NSIndexPath indexPath)
         {
@@ -42,8 +42,17 @@ namespace RAysHotDogs.DataSources
         }
         public HotDog GetItem(int id)
         {
-            HotDogDetailServices srv = new HotDogDetailServices();
-            return srv.GetHotDogById(id);
+            
+            return hotDogs[id];
+        }
+
+        public override void RowSelected(UITableView tableView, NSIndexPath indexPath)
+        {
+
+            var selectedHotDog = hotDogs[indexPath.Row];
+            callingController.HotDogSelected(selectedHotDog);
+            tableView.DeselectRow(indexPath,true);
+          
         }
     }
 }

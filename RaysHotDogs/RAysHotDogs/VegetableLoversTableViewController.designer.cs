@@ -9,8 +9,8 @@ using System.CodeDom.Compiler;
 
 namespace RAysHotDogs
 {
-	[Register ("HotDogDetailSegue")]
-	partial class HotDogDetailSegue
+	[Register ("VegetableLoversTableViewController")]
+	partial class VegetableLoversTableViewController
 	{
 		
 		void ReleaseDesignerOutlets ()

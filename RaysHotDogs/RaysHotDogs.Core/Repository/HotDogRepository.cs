@@ -109,7 +109,7 @@ namespace RaysHotDogs.Core.Repository
                         Name="Regular3 Hot3 Dog3",
                         ShortDescription="Id 3 Short description some text tra la la",
                         Description="ID 3 description of hot dog with id 3 sdfgs sdf gsd fg sdf gsd fg sd fg sdfg sdf g tra la la ",
-                        ImagePath="hotDog1",
+                        ImagePath="hotDog7",
                         Available=true,
                         PrepTime=15,
                         Ingredients=new List<string>(){"ingredient 1","ingredient 2","ingredient 3","ingredient 4", "ingredient 5"},
@@ -144,7 +144,7 @@ namespace RaysHotDogs.Core.Repository
                         Name="Vegie5 Hot Dog",
                         ShortDescription="Id 5 Short description some text tra la la",
                         Description="ID 5 description of hot dog with id 1 sdfgs sdf gsd fg sdf gsd fg sd fg sdfg sdf g tra la la ",
-                        ImagePath="hotDog5",
+                        ImagePath="hotDog7",
                         Available=true,
                         PrepTime=15,
                         Ingredients=new List<string>(){"ingredient 1","ingredient 2","ingredient 3","ingredient 4", "ingredient 5"},
@@ -157,7 +157,7 @@ namespace RaysHotDogs.Core.Repository
                         Name="Vegie6 Hot Dog",
                         ShortDescription="Id 6 Short description some text tra la la",
                         Description="ID 6 description of hot dog with id 1 sdfgs sdf gsd fg sdf gsd fg sd fg sdfg sdf g tra la la ",
-                        ImagePath="hotDog6",
+                        ImagePath="hotDog1",
                         Available=true,
                         PrepTime=16,
                         Ingredients=new List<string>(){"ingredient 1","ingredient 2","ingredient 3","ingredient 4", "ingredient 5"},
@@ -169,7 +169,7 @@ namespace RaysHotDogs.Core.Repository
             new HotDogGroup()
             {
 
-                HotDogGroupID=2,
+                HotDogGroupID=3,
                 Title="Vegie Lovers",
                 ImagePath="",
                 HotDogs=new List<HotDog>()
@@ -193,7 +193,7 @@ namespace RaysHotDogs.Core.Repository
                         Name="Vegie7 Hot Dog",
                         ShortDescription="Id 7 Short description some text tra la la",
                         Description="ID 5 description of hot dog with id 1 sdfgs sdf gsd fg sdf gsd fg sd fg sdfg sdf g tra la la ",
-                        ImagePath="hotDog5",
+                        ImagePath="hotDog1",
                         Available=true,
                         PrepTime=15,
                         Ingredients=new List<string>(){"ingredient 1","ingredient 2","ingredient 3","ingredient 4", "ingredient 5"},
@@ -206,7 +206,7 @@ namespace RaysHotDogs.Core.Repository
                         Name="Vegie6 Hot Dog",
                         ShortDescription="Id 8 Short description some text tra la la",
                         Description="ID 8 description of hot dog with id 1 sdfgs sdf gsd fg sdf gsd fg sd fg sdfg sdf g tra la la ",
-                        ImagePath="hotDog6",
+                        ImagePath="hotDog2",
                         Available=true,
                         PrepTime=8,
                         Ingredients=new List<string>(){"ingredient 1","ingredient 2","ingredient 3","ingredient 4", "ingredient 5"},

@@ -12,7 +12,7 @@
         <!--Hot Dog Detail View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="HotDogDetailViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="hotDogDetailViewController" id="BYZ-38-t0r" customClass="HotDogDetailViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -87,7 +87,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="970" y="816"/>
+            <point key="canvasLocation" x="937" y="994"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="gzc-yg-KzO">
@@ -104,6 +104,112 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BKM-Td-WI9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1564" y="976"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="3TD-ds-Vfj">
+            <objects>
+                <tabBarController id="IvQ-Hu-TvA" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="7At-sJ-cbG">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="qX4-fW-UP8" kind="relationship" relationship="viewControllers" id="DVm-h9-M2L"/>
+                        <segue destination="UpB-WB-BMm" kind="relationship" relationship="viewControllers" id="374-p9-yn6"/>
+                        <segue destination="owA-E4-drD" kind="relationship" relationship="viewControllers" id="CMo-Fl-OEp"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sFm-OP-abc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2524" y="2189"/>
+        </scene>
+        <!--Favorite Table View Controller-->
+        <scene sceneID="9D0-mC-mcQ">
+            <objects>
+                <tableViewController id="qX4-fW-UP8" customClass="FavoriteTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="iAg-rq-Esg">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="1ZK-y1-W94">
+                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="1ZK-y1-W94" id="sqR-IY-BCA">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="qX4-fW-UP8" id="zBi-Ls-IGj"/>
+                            <outlet property="delegate" destination="qX4-fW-UP8" id="BTm-RR-sdf"/>
+                        </connections>
+                    </tableView>
+                    <tabBarItem key="tabBarItem" systemItem="favorites" id="XgF-YC-Fk9"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="L95-il-fa9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-918" y="1683"/>
+        </scene>
+        <!--Vegetable-->
+        <scene sceneID="gKo-N0-be7">
+            <objects>
+                <tableViewController id="owA-E4-drD" customClass="VegetableLoversTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="A2W-2f-Kk8">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="6ZH-Uf-Juh">
+                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="6ZH-Uf-Juh" id="TGM-N3-1xP">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="owA-E4-drD" id="cqH-Tz-0yl"/>
+                            <outlet property="delegate" destination="owA-E4-drD" id="OWj-Rd-0te"/>
+                        </connections>
+                    </tableView>
+                    <tabBarItem key="tabBarItem" title="Vegetable" id="CSi-aM-5rT"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VcG-7K-S1a" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-919" y="3036"/>
+        </scene>
+        <!--Meat Lovers-->
+        <scene sceneID="sVA-z4-JWM">
+            <objects>
+                <tableViewController id="UpB-WB-BMm" customClass="MeatLoversTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="Cq3-Ei-qiy">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="Xfc-ea-71H">
+                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Xfc-ea-71H" id="gHJ-Xi-s8Q">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="UpB-WB-BMm" id="kBR-5F-mch"/>
+                            <outlet property="delegate" destination="UpB-WB-BMm" id="M3R-wN-9BC"/>
+                        </connections>
+                    </tableView>
+                    <tabBarItem key="tabBarItem" title="Meat Lovers" id="zIr-Sj-epY"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PNN-Uc-Zlq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-919" y="2352"/>
         </scene>
         <!--Wilcome to Rays hot Dogs-->
         <scene sceneID="vsT-j3-8Uj">
@@ -122,7 +228,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Create your Order"/>
                                 <connections>
-                                    <segue destination="29w-g2-Dxd" kind="show" id="PNM-NV-Hw8"/>
+                                    <segue destination="IvQ-Hu-TvA" kind="show" id="NE1-68-Sng"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -143,16 +249,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="39" id="Buj-H0-iMq">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="HotDogCell" rowHeight="39" id="Buj-H0-iMq">
                                 <rect key="frame" x="0.0" y="28" width="375" height="39"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Buj-H0-iMq" id="MU1-n1-42S" customClass="HotDogCell">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="38.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
-                                <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" identifier="HotDogDetailSegue" customClass="HotDogDetailSegue" id="Gag-Gk-ZU5"/>
-                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>

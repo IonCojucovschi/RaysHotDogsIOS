@@ -25,14 +25,20 @@ namespace RAysHotDogs
             DataBindUI();
             AddToChartButton.TouchUpInside += (object s, EventArgs e) =>
             {
-
                 UIAlertView message = new UIAlertView(){
                     Title="Works Well",
                     Message= "First HOTDOG!!!"
                 };
                 message.AddButton("Ok");
                 message.Show();
+                this.DismissModalViewController(true);
             };
+
+            CancelButton.TouchUpInside+=(object s, EventArgs e)=>
+            {
+                this.DismissModalViewController(true);
+            };
+
         }
         private void DataBindUI()
         {

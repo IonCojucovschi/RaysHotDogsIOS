@@ -103,7 +103,6 @@
     <Folder Include="DataSources\">
     </Folder>
     <Folder Include="Cells\">
-      <DependentUpon>Cells</DependentUpon>
     </Folder>
   </ItemGroup>
   <ItemGroup>
@@ -121,15 +120,24 @@
       <DependentUpon>HotDogDetailViewController.cs</DependentUpon>
     </Compile>
     <Compile Include="DataSources\HotDogDataSources.cs" />
+    <Compile Include="Cells\HotDogListCell.cs" />
     <Compile Include="HotDogTableViewController.cs" />
     <Compile Include="HotDogTableViewController.designer.cs">
       <DependentUpon>HotDogTableViewController.cs</DependentUpon>
     </Compile>
-    <Compile Include="Cells\HotDogListCell.cs" />
-    <Compile Include="HotDogDetailSegue.cs" />
-    <Compile Include="HotDogDetailSegue.designer.cs">
-      <DependentUpon>HotDogDetailSegue.cs</DependentUpon>
+    <Compile Include="FavoriteTableViewController.cs" />
+    <Compile Include="FavoriteTableViewController.designer.cs">
+      <DependentUpon>FavoriteTableViewController.cs</DependentUpon>
     </Compile>
+    <Compile Include="VegetableLoversTableViewController.cs" />
+    <Compile Include="VegetableLoversTableViewController.designer.cs">
+      <DependentUpon>VegetableLoversTableViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MeatLoversTableViewController.cs" />
+    <Compile Include="MeatLoversTableViewController.designer.cs">
+      <DependentUpon>MeatLoversTableViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BaseTableCategory.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\RaysHotDogs.Core\RaysHotDogs.Core.csproj">
